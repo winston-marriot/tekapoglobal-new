@@ -13,12 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 
-Route::get('test',function()
+Route::get('/contact-us',function()
 {
     return view('contact');
-});
+})->name('contact.us');
+
+
+Route::get('/',function()
+{
+    return view('home');
+})->name('home');
