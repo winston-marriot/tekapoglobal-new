@@ -1,6 +1,6 @@
 @extends('Layouts.app')
 
-@section('title', 'Contact Us')
+@section('title', 'Home')
 
 @section('content')
 <div role="main" class="main">

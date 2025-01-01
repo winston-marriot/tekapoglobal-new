@@ -17,17 +17,17 @@
                                 <li class="{{ Request::routeIs('home') ? 'active' : '' }}">
                                     <a href="{{ route('home') }}" class="nav-link">Home</a>
                                 </li>
-                                <li class="{{ Request::is('demo-architecture-2-about-us.html') ? 'active' : '' }}">
-                                    <a href="{{ url('demo-architecture-2-about-us.html') }}" class="nav-link">About</a>
+                                <li class="{{Request::routeIs('about.us') ? 'active' : ''  }}">
+                                    <a href="{{ route('about.us') }}" class="nav-link">About</a>
                                 </li>
-                                <li class="{{ Request::is('demo-architecture-2-projects.html') ? 'active' : '' }}">
-                                    <a href="{{ url('demo-architecture-2-projects.html') }}" class="nav-link">Projects</a>
-                                </li>
-                                <li class="dropdown {{ Request::is('demo-architecture-2-services.html') ? 'active' : '' }}">
-                                    <a href="{{ url('demo-architecture-2-services.html') }}" class="nav-link dropdown-toggle">Services</a>
+                                <!-- <li class="{{Request::routeIs('services') ? 'active' : ''   }}">
+                                    <a href="{{ route('services')  }}" class="nav-link">Projects</a>
+                                </li> -->
+                                <li class="dropdown {{ Request::routeIs('services') ? 'active' : ''  }}">
+                                    <a href="{{ route('services') }}" class="nav-link dropdown-toggle">Services</a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a href="{{ url('demo-architecture-2-services.html') }}" class="dropdown-item">View All</a>
+                                            <a href="{{ route('structural.engineering') }}" class="dropdown-item">Structural Engineering</a>
                                         </li>
                                         <li>
                                             <a href="{{ url('demo-architecture-2-services-detail.html') }}" class="dropdown-item">Design & Planning</a>

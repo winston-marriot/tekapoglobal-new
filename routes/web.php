@@ -28,3 +28,19 @@ Route::get('/',function()
 {
     return view('home');
 })->name('home');
+
+Route::get('/about-us',function()
+{
+    return view('aboutUs');
+})->name('about.us');
+
+Route::get('/services',function()
+{
+    return view('services');
+})->name('services');
+
+Route::get('/structural-engineering',function()
+{
+    return view('structuralEngineering');
+})->name('structural.engineering');
+
