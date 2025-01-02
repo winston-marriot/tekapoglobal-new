@@ -43,9 +43,9 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="{{ Request::is('demo-architecture-2-blog.html') ? 'active' : '' }}">
+                                <!-- <li class="{{ Request::is('demo-architecture-2-blog.html') ? 'active' : '' }}">
                                     <a href="{{ url('demo-architecture-2-blog.html') }}" class="nav-link">Blog</a>
-                                </li>
+                                </li> -->
                                 <li class="{{ Request::routeIs('contact.us') ? 'active' : '' }}">
                                     <a href="{{ route('contact.us') }}" class="nav-link">Contact</a>
                                 </li>

@@ -44,3 +44,22 @@ Route::get('/structural-engineering',function()
     return view('structuralEngineering');
 })->name('structural.engineering');
 
+Route::get('/value-engineering',function()
+{
+    return view('valueEngineering');
+})->name('value.engineering');
+
+// Route::get('/structural-engineering',function()
+// {
+//     return view('structuralEngineering');
+// })->name('structural.engineering');
+
+// Route::get('/structural-engineering',function()
+// {
+//     return view('structuralEngineering');
+// })->name('structural.engineering');
+
+// Route::get('/structural-engineering',function()
+// {
+//     return view('structuralEngineering');
+// })->name('structural.engineering');
