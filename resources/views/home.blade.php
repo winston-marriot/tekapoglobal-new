@@ -141,7 +141,7 @@
                                 <img src="img/demos/architecture-2/generic/generic-1.jpg" class="img-fluid appear-animation" alt="" data-appear-animation="maskLeft" data-appear-animation-delay="250" />
                             </div>
                             <div class="overflow-hidden position-absolute z-index-2" style="bottom: -75px; right: -17%;">
-                                <img src="img/demos/architecture-2/generic/generic-2.jpg" class="img-fluid appear-animation" alt="" data-appear-animation="maskRight" data-appear-animation-delay="550" />
+                                <img src="{{asset('img/terranz-about-opt-1.jpg')}}" class="img-fluid appear-animation" alt="" data-appear-animation="maskRight" data-appear-animation-delay="550" />
                             </div>
                         </div>
                     </div>
@@ -159,8 +159,10 @@
                             <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">
                                 <img src="img/demos/architecture-2/divider.jpg" class="img-fluid opacity-5 mb-4" alt="" />
                             </div>
-                            <p class="custom-font-tertiary text-5 line-height-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur.</p>
-                            <p class="text-3-5 pb-3 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1600">Vestibulum auctor felis eget orci semper vestibulum. Pellentesque ultricies nibh gravida, accumsan libero luctus, molestie nunc. In nibh ipsum, blandit id faucibus ac, finibus.</p>
+                            <p class="custom-font-tertiary text-5 line-height-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">TGL, a distinguished engineering services company, was established in 2013 in Christchruch, New Zealand. TGL is the epitome of unwavering expertise, founded by a seasoned entrepreneur. Our company takes pride in assembling a diverse team of professionals located in New Zealand.</p>
+
+                            <p class="custom-font-tertiary text-5 line-height-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">At TGL, we are a collective force dedicated to orchestrating success for our clients and trading partners. Our team of seasoned professionals goes the extra mile, tirelessly working to ensure that every collaboration translates into a triumph for those who choose to work with us.</p>
+                            <p class="text-3-5 pb-3 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1600">At TGL, we combine expertise, innovation, and commitment to deliver unparalleled engineering solutions.</p>
                             <a href="demo-architecture-2-contact.html" class="btn btn-primary custom-btn-style-1 font-weight-bold text-3 px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1800">CONTACT US</a>
                         </div>
                     </div>
@@ -176,22 +178,22 @@
             <div class="container container-xl-custom pb-3">
                 <div class="row align-items-center text-center py-5 my-3">
                     <div class="col-sm-4 col-xl-2 mb-5 mb-xl-0">
-                        <img src="img/logos/logo-8.png" alt class="img-fluid" style="max-width: 90px;" />
+                        <img src="{{asset('img/content-logo-1.png')}}" alt class="img-fluid" style="max-width: 90px;" />
                     </div>
                     <div class="col-sm-4 col-xl-2 mb-5 mb-xl-0">
-                        <img src="img/logos/logo-9.png" alt class="img-fluid" style="max-width: 140px;" />
+                        <img src="{{asset('img/scnz.jpg')}}" alt class="img-fluid" style="max-width: 140px;" />
                     </div>
                     <div class="col-sm-4 col-xl-2 mb-5 mb-xl-0">
-                        <img src="img/logos/logo-10.png" alt class="img-fluid" style="max-width: 140px;" />
+                        <img src="{{asset('img/sesoc.png')}}" alt class="img-fluid" style="max-width: 140px;" />
                     </div>
-                    <div class="col-sm-4 col-xl-2 mb-5 mb-lg-0">
-                        <img src="img/logos/logo-11.png" alt class="img-fluid" style="max-width: 140px;" />
+                    <div class="col-sm-4 col-xl-2 mb-5 mb-xl-0">
+                        <img src="{{asset('img/content-logo-1.png')}}" alt class="img-fluid" style="max-width: 90px;" />
                     </div>
-                    <div class="col-sm-4 col-xl-2 mb-5 mb-lg-0">
-                        <img src="img/logos/logo-12.png" alt class="img-fluid" style="max-width: 100px;" />
+                    <div class="col-sm-4 col-xl-2 mb-5 mb-xl-0">
+                        <img src="{{asset('img/scnz.jpg')}}" alt class="img-fluid" style="max-width: 140px;" />
                     </div>
-                    <div class="col-sm-4 col-xl-2">
-                        <img src="img/logos/logo-13.png" alt class="img-fluid" style="max-width: 100px;" />
+                    <div class="col-sm-4 col-xl-2 mb-5 mb-xl-0">
+                        <img src="{{asset('img/sesoc.png')}}" alt class="img-fluid" style="max-width: 140px;" />
                     </div>
                 </div>
             </div>
@@ -441,7 +443,7 @@
 
             <hr class="my-0">
 
-            <div class="row py-5 my-5">
+            <!-- <div class="row py-5 my-5">
                 <div class="col-lg-6 col-xl-7 mx-auto mb-5 mb-lg-0 appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="500">
                     <div class="owl-carousel owl-theme nav-style-1 nav-outside nav-font-size-lg custom-nav-grey mb-0" data-plugin-options="{'responsive': {'576': {'items': 1}, '768': {'items': 2}, '992': {'items': 1}, '1200': {'items': 2}}, 'loop': true, 'nav': true, 'dots': false, 'margin': 20}">
                         <div>
@@ -476,18 +478,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5 col-xl-4 text-end position-relative appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="250">
-                    <div class="position-absolute z-index-0 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="500" style="top: 102px; right: -50px;">
-                        <h2 class="text-color-dark custom-stroke-text-effect-1 custom-big-font-size-3 font-weight-black opacity-1 mb-0">ARCHLIFE</h2>
-                    </div>
-                    <h2 class="text-color-default positive-ls-3 line-height-3 text-4 mb-2">THE BEST PROFESSIONALS</h2>
-                    <h3 class="text-transform-none text-color-dark font-weight-black text-10 line-height-2 mb-4">Meet Our Team</h3>
-                    <img src="img/demos/architecture-2/divider.jpg" class="img-fluid opacity-5 mb-4 mt-2" alt="" />
-                    <p class="custom-font-tertiary text-5 line-height-4 mb-4 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero</p>
-                    <p class="text-3-5 pb-3 mb-4">Vestibulum auctor felis eget orci semper vestibulum. Pellentesque ultricies nibh gravida, accumsan libero luctus, molestie nunc.</p>
-                    <a href="demo-architecture-2-contact.html" class="btn btn-primary custom-btn-style-1 custom-btn-style-1-right font-weight-bold text-3 px-5 py-3">CONTACT US</a>
-                </div>
-            </div>
+            </div> -->
         </div>
 
         <section class="section parallax bg-transparent border-0 py-0 m-0" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'scrollableParallax': true, 'scrollableParallaxMinWidth': 991, 'startOffset': 13, 'cssProperty': 'width', 'cssValueStart': 40, 'cssValueEnd': 100, 'cssValueUnit': 'vw'}">
